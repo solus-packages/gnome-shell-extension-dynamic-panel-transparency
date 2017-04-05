@@ -1,0 +1,72 @@
+<PISI>
+    <Source>
+        <Name>gnome-shell-extension-dynamic-panel-transparency</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>desktop.gnome</PartOf>
+        <Summary xml:lang="en">This extension adds transparency to the Gnome Shell panel.</Summary>
+        <Description xml:lang="en">This extension adds transparency to the Gnome Shell panel.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>gnome-shell-extension-dynamic-panel-transparency</Name>
+        <Summary xml:lang="en">This extension adds transparency to the Gnome Shell panel.</Summary>
+        <Description xml:lang="en">This extension adds transparency to the Gnome Shell panel.
+</Description>
+        <PartOf>desktop.gnome</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/COPYING</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/LICENSE</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/__init__.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/compatibility.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/convenience.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/dynamic-panel-transparency.pot</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/events.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/extension.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/ar/LC_MESSAGES/dynamic-panel-transparency.mo</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/ar/LC_MESSAGES/dynamic-panel-transparency.po</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/de/LC_MESSAGES/dynamic-panel-transparency.mo</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/de/LC_MESSAGES/dynamic-panel-transparency.po</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/es/LC_MESSAGES/dynamic-panel-transparency.mo</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/es/LC_MESSAGES/dynamic-panel-transparency.po</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/fr/LC_MESSAGES/dynamic-panel-transparency.mo</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/fr/LC_MESSAGES/dynamic-panel-transparency.po</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/pt_BR/LC_MESSAGES/dynamic-panel-transparency.mo</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/pt_BR/LC_MESSAGES/dynamic-panel-transparency.po</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/ru/LC_MESSAGES/dynamic-panel-transparency.mo</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/ru/LC_MESSAGES/dynamic-panel-transparency.po</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/zh_CN/LC_MESSAGES/dynamic-panel-transparency.mo</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/locale/zh_CN/LC_MESSAGES/dynamic-panel-transparency.po</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/media/demo.gif</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/metadata.json</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/preferences/app_chooser.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/preferences/app_row.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/preferences/demo_panel.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/preferences/main.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/preferences/tweaks.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/ui/app-prefs.ui</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/ui/prefs.ui</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/schemas/gschemas.compiled</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/schemas/org.gnome.shell.extensions.dynamic-panel-transparency.appOverrides.gschema.xml</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/schemas/org.gnome.shell.extensions.dynamic-panel-transparency.gschema.xml</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/settings.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/stylesheet.css</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/theming.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/transitions.js</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/util.js</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-04-05</Date>
+            <Version>20</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
