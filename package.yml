@@ -1,6 +1,6 @@
 name       : gnome-shell-extension-dynamic-panel-transparency
 version    : 20
-release    : 1
+release    : 2
 source     :
     - https://github.com/rockon999/dynamic-panel-transparency/archive/v20.tar.gz : 0f6803fac3771f1c2233df26a0abdf7e458f2639f129ed9124596df537365133
 license    : GPL-2.0
@@ -13,6 +13,9 @@ rundeps    :
     - gnome-shell-extensions
 install    : |
     export gseDir=$installdir/usr/share/gnome-shell/extensions/
+    install -dm00644 $installdir/usr/share/glib-2.0/schemas/
     install -dm00644 ${gseDir}
+    install -Dm00644 dyn*/schemas/org.* $installdir/usr/share/glib-2.0/schemas/
+    rm -r dyn*/schemas
     cp -R $workdir/dynamic-panel* ${gseDir}
     chmod 00644 ${gseDir}

@@ -19,6 +19,8 @@
 </Description>
         <PartOf>desktop.gnome</PartOf>
         <Files>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.shell.extensions.dynamic-panel-transparency.appOverrides.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.shell.extensions.dynamic-panel-transparency.gschema.xml</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/COPYING</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/LICENSE</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/__init__.js</Path>
@@ -50,9 +52,6 @@
             <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/preferences/tweaks.js</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/ui/app-prefs.ui</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/prefs.js/ui/prefs.ui</Path>
-            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/schemas/gschemas.compiled</Path>
-            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/schemas/org.gnome.shell.extensions.dynamic-panel-transparency.appOverrides.gschema.xml</Path>
-            <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/schemas/org.gnome.shell.extensions.dynamic-panel-transparency.gschema.xml</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/settings.js</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/stylesheet.css</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/dynamic-panel-transparency@rockon999.github.io/theming.js</Path>
@@ -61,7 +60,7 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
+        <Update release="2">
             <Date>2017-04-05</Date>
             <Version>20</Version>
             <Comment>Packaging update</Comment>
