@@ -1,8 +1,8 @@
 name       : gnome-shell-extension-dynamic-panel-transparency
-version    : '21'
-release    : 4
+version    : '24'
+release    : 5
 source     :
-    - https://github.com/rockon999/dynamic-panel-transparency/archive/v21.tar.gz : 9608324253ff6e210166f0a44c3ee73ff546c53f52bc93143afa2e09fe3231e0
+    - https://github.com/rockon999/dynamic-panel-transparency/archive/v24.tar.gz : eb7fa9e7514fa078f06a39251895f13905db16d9682e824bb4870767f3b6e78d
 license    : GPL-2.0
 component  : desktop.gnome
 summary    : This extension adds transparency to the Gnome Shell panel.
