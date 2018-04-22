@@ -5,7 +5,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-only</License>
         <PartOf>desktop.gnome</PartOf>
         <Summary xml:lang="en">This extension adds transparency to the Gnome Shell panel.</Summary>
         <Description xml:lang="en">This extension adds transparency to the Gnome Shell panel.
@@ -59,8 +59,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2017-11-04</Date>
+        <Update release="7">
+            <Date>2018-04-22</Date>
             <Version>25</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
